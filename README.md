@@ -4,7 +4,7 @@ A weather application built using React and OpenWeather API.
 
 ## Features
 - Login / Signup
-- JWT Authentication
+- FireBase Authentication
 - Live weather data
 - Search by city
 
