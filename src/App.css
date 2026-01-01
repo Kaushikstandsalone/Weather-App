@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+/* Specific overrides for underscore signout class */
+.signout_button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 28px rgba(231, 76, 60, 0.24);
+}
+
+.signout_button:active {
+  transform: scale(0.98);
+  box-shadow: 0 6px 14px rgba(231, 76, 60, 0.18);
+}
+
+.signout_button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px rgba(231, 76, 60, 0.14), 0 12px 28px rgba(231, 76, 60, 0.24);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .signout_button {
+    transition: none;
+    transform: none;
+  }
+}
